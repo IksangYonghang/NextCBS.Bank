@@ -1,0 +1,6 @@
+@NextCBS.Bank_HostAddress = http://localhost:5240
+
+GET {{NextCBS.Bank_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
