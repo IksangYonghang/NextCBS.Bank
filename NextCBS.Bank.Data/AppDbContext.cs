@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.Extensions.Options;
+using NextCBS.Bank.Data.Configurations;
 using NextCBS.Bank.Module.Entities;
 using Npgsql;
 
@@ -32,6 +33,17 @@ namespace NextCBS.Bank.Data
                 IncludeErrorDetail = true
             };
             return builder.ConnectionString;
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            _ = modelBuilder.ApplyConfiguration(new AuditLogConfiguration());
+            _ = modelBuilder.ApplyConfiguration(new DepositProductConfiguration());
+            _ = modelBuilder.ApplyConfiguration(new LoanProductConfiguration());
+            _ = modelBuilder.ApplyConfiguration(new ParameterConfiguration());
+            _ = modelBuilder.ApplyConfiguration(new UserConfiguration());
+            _ = modelBuilder.ApplyConfiguration(new UserPermissionConfiguration());
+            _ = modelBuilder.ApplyConfiguration(new UserRoleConfiguration());
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -84,7 +96,7 @@ namespace NextCBS.Bank.Data
                     if (entity.State != EntityState.Added && prop.Metadata.GetAfterSaveBehavior() != PropertySaveBehavior.Save)
                         continue;
 
-                   
+
                     if (entity.State == EntityState.Modified && !prop.IsModified)
                         continue;
 
