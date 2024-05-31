@@ -4,7 +4,7 @@
     {
         public int Id { get; set; }
         public int TenantId { get; set; }
-        public required string Role { get; set; }
+        public required string RoleName { get; set; }
         public int BranchId { get; set; }
         public required string UserName { get; set; }
         public  string? Guid { get; set; }
