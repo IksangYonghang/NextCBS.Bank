@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\NextCBS.Bank.Contracts\NextCBS.Bank.Contracts.csproj" />
+    <ProjectReference Include="..\NextCBS.Bank.Intercom\NextCBS.Bank.Intercom.csproj" />
+  </ItemGroup>
+
 </Project>
