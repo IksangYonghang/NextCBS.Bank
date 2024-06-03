@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextCBS.Bank", "NextCBS.Bank\NextCBS.Bank.csproj", "{3422ABE0-8D8F-4A8B-B2FA-1166775B2D50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NextCBS.Bank.Api", "NextCBS.Bank\NextCBS.Bank.Api.csproj", "{3422ABE0-8D8F-4A8B-B2FA-1166775B2D50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextCBS.Bank.Data", "NextCBS.Bank.Data\NextCBS.Bank.Data.csproj", "{1A14F9C4-F1B9-4299-ACD3-A709F9497EE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NextCBS.Bank.Data", "NextCBS.Bank.Data\NextCBS.Bank.Data.csproj", "{1A14F9C4-F1B9-4299-ACD3-A709F9497EE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextCBS.Bank.Contracts", "NextCBS.Bank.Contracts\NextCBS.Bank.Contracts.csproj", "{0F4007A4-A80A-4A35-824D-79F50E6F7336}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NextCBS.Bank.Contracts", "NextCBS.Bank.Contracts\NextCBS.Bank.Contracts.csproj", "{0F4007A4-A80A-4A35-824D-79F50E6F7336}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextCBS.Bank.Module", "NextCBS.Bank.Module\NextCBS.Bank.Module.csproj", "{7ECC2F9C-F49C-4808-BF4C-AA142DFB7FC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NextCBS.Bank.Module", "NextCBS.Bank.Module\NextCBS.Bank.Module.csproj", "{7ECC2F9C-F49C-4808-BF4C-AA142DFB7FC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextCBS.Bank.Intercom", "NextCBS.Bank.Intercom\NextCBS.Bank.Intercom.csproj", "{6136A41C-B622-4C5D-A8E9-A490E3D11B90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NextCBS.Bank.Intercom", "NextCBS.Bank.Intercom\NextCBS.Bank.Intercom.csproj", "{6136A41C-B622-4C5D-A8E9-A490E3D11B90}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
