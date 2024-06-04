@@ -7,12 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NextCBS.Bank.Abstractions\NextCBS.Bank.Abstractions.csproj" />
-    <ProjectReference Include="..\NextCBS.Bank.Intercom\NextCBS.Bank.Intercom.csproj" />
+    <Compile Remove="Models\**" />
+    <EmbeddedResource Remove="Models\**" />
+    <None Remove="Models\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
+    <ProjectReference Include="..\NextCBS.Bank.Abstractions\NextCBS.Bank.Abstractions.csproj" />
+    <ProjectReference Include="..\NextCBS.Bank.Intercom\NextCBS.Bank.Intercom.csproj" />
   </ItemGroup>
 
 </Project>

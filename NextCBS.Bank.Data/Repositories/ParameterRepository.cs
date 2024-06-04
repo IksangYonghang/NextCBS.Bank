@@ -48,7 +48,7 @@ namespace NextCBS.Bank.Data.Repositories
 
             Parameter entity = await GetByIdAsync(parameterModel.Id) ?? ToEntity(parameterModel);
 
-            entity.AccountType = parameterModel.AccountType;
+            entity.Type = parameterModel.Type;
             entity.ParameterName = parameterModel.ParameterName;
             entity.ParameterValue = parameterModel.ParameterValue;
 
@@ -71,7 +71,7 @@ namespace NextCBS.Bank.Data.Repositories
             {
                 Id = model.Id,
                 TenantId = _meta.ClientId,
-                AccountType = model.AccountType,
+                Type = model.Type,
                 ParameterName = model.ParameterName,
                 ParameterValue = model.ParameterValue,
                 CreatedBy = _meta.UserId,
@@ -83,7 +83,7 @@ namespace NextCBS.Bank.Data.Repositories
             return new ParameterModel
             {
                 Id = parameter.Id,
-                AccountType = parameter.AccountType,
+                Type = parameter.Type,
                 ParameterName = parameter.ParameterName,
                 ParameterValue = parameter.ParameterValue,
             };

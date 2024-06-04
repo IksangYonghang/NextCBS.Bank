@@ -1,10 +1,8 @@
 ﻿namespace NextCBS.Bank.Abstractions.Enum
 {
-    public enum AccountType
+    public enum ParameterType
     {
         Deposit,
-        Loan,
-        Share,
-
+        Loan
     }
 }
