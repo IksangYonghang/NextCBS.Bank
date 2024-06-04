@@ -1,16 +1,27 @@
-﻿namespace NextCBS.Bank.Module.Entities
+﻿using NextCBS.Bank.Abstractions.Enum;
+
+namespace NextCBS.Bank.Module.Entities
 {
-    public class DepositProducts : AuditableEntity
+    public class Product
     {
+        
         public int Id { get; set; }
         public int TenantId { get; set; }
-        public int BranchId { get; set; }
+        public AccountType ProductType { get; set; }
+        public int? BranchId { get; set; }
         public bool AllBranch { get; set; }
         public required string ProductName { get; set; }
         public required string ProductNameNp { get; set; }
+        public decimal IntRate { get; set; }
+        public int TranGlId { get; set; }
+        public string Gls { get; set; } //all trangl, exp gl, fine gl etc
+        public string AccNoConf { get; set; } //Prefix, suffix, autoAc etc
+    }
+
+    public class DepositProducts : AuditableEntity
+    {
         public string? Prefix { get; set; }
         public string? Sufix { get; set; }
-        public decimal IntRate { get; set; }
         public bool LockIntRate { get; set; }
         public bool AutoAccount { get; set; } = true;
         public int AccNumberLength { get; set; }

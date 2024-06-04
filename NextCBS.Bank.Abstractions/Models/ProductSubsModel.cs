@@ -1,4 +1,4 @@
-namespace NextCBS.Bank.Contracts.Models;
+namespace NextCBS.Bank.Abstractions.Models;
 
 public class ProductSubsModel
 {

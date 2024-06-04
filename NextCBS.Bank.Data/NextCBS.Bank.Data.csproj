@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NextCBS.Bank.Contracts\NextCBS.Bank.Contracts.csproj" />
+    <ProjectReference Include="..\NextCBS.Bank.Abstractions\NextCBS.Bank.Abstractions.csproj" />
     <ProjectReference Include="..\NextCBS.Bank.Module\NextCBS.Bank.Module.csproj" />
   </ItemGroup>
 

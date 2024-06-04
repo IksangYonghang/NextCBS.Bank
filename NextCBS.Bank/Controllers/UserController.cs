@@ -1,8 +1,8 @@
 ﻿using Meeting.Module.Services;
 using Microsoft.AspNetCore.Mvc;
-using NextCBS.Bank.Contracts.Models.Identity; 
+using NextCBS.Bank.Abstractions.Models;
+using NextCBS.Bank.Abstractions.Models.Identity;
 using NextCBS.Bank.Module.IRepositories;
-using NextCBS.Bank.Module.Models;
 
 namespace NextCBS.Bank.Api.Controllers
 {

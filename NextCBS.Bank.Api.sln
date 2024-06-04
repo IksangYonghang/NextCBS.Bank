@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NextCBS.Bank.Api", "NextCBS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NextCBS.Bank.Data", "NextCBS.Bank.Data\NextCBS.Bank.Data.csproj", "{1A14F9C4-F1B9-4299-ACD3-A709F9497EE5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NextCBS.Bank.Contracts", "NextCBS.Bank.Contracts\NextCBS.Bank.Contracts.csproj", "{0F4007A4-A80A-4A35-824D-79F50E6F7336}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NextCBS.Bank.Abstractions", "NextCBS.Bank.Abstractions\NextCBS.Bank.Abstractions.csproj", "{0F4007A4-A80A-4A35-824D-79F50E6F7336}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NextCBS.Bank.Module", "NextCBS.Bank.Module\NextCBS.Bank.Module.csproj", "{7ECC2F9C-F49C-4808-BF4C-AA142DFB7FC8}"
 EndProject

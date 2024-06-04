@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using NextCBS.Bank.Abstractions.Models;
 using NextCBS.Bank.Module.IRepositories;
 
 namespace NextCBS.Bank.Api.Controllers
@@ -15,21 +16,21 @@ namespace NextCBS.Bank.Api.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Module.Models.ParameterModel>> Upsert(Module.Models.ParameterModel parameterModel)
+        public async Task<ActionResult<ParameterModel>> Upsert(ParameterModel parameterModel)
         {
             var entity = await _parameterRepository.UpsertParameter(parameterModel);
             return Ok(entity);
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Module.Models.ParameterModel>> GetParameter(int id)
+        public async Task<ActionResult<ParameterModel>> GetParameter(int id)
         {
             var item = await _parameterRepository.GetParameter(id);
             return Ok(item);
         }
 
         [HttpGet("all")]
-        public async Task<ActionResult<Module.Models.ParameterModel>> GetParameters()
+        public async Task<ActionResult<ParameterModel>> GetParameters()
         {
             var entities = await _parameterRepository.GetAllParameters();
             return Ok(entities);

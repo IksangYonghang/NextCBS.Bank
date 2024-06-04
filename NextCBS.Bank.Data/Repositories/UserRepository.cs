@@ -1,4 +1,4 @@
-﻿using NextCBS.Bank.Contracts;
+﻿using NextCBS.Bank.Abstractions;
 using NextCBS.Bank.Module.Entities;
 using NextCBS.Bank.Module.IRepositories;
 

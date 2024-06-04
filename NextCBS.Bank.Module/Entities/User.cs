@@ -12,6 +12,5 @@
         public required string Email { get; set; }
         public string? Contact { get; set; }
         public bool Status { get; set; }
-        
     }
 }

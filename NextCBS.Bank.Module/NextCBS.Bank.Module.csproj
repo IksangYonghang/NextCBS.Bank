@@ -7,8 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NextCBS.Bank.Contracts\NextCBS.Bank.Contracts.csproj" />
+    <ProjectReference Include="..\NextCBS.Bank.Abstractions\NextCBS.Bank.Abstractions.csproj" />
     <ProjectReference Include="..\NextCBS.Bank.Intercom\NextCBS.Bank.Intercom.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
   </ItemGroup>
 
 </Project>

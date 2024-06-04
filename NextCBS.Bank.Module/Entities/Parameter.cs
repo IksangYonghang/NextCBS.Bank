@@ -1,4 +1,4 @@
-﻿using NextCBS.Bank.Module.Enum;
+﻿using NextCBS.Bank.Abstractions.Enum;
 
 namespace NextCBS.Bank.Module.Entities
 {
@@ -6,7 +6,7 @@ namespace NextCBS.Bank.Module.Entities
     {
         public int Id { get; set; }
         public int TenantId { get; set; }
-        public AccountType AccountType { get; set; }
+        public ParameterType Type { get; set; }
         public required string ParameterName { get; set; }
         public required string ParameterValue { get; set; }
     }

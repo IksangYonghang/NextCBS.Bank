@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
-using NextCBS.Bank.Contracts;
-using NextCBS.Bank.Contracts.Models;
 using System.Net;
 using System.Net.Http.Json;
+using NextCBS.Bank.Abstractions;
+using NextCBS.Bank.Abstractions.Models;
 
 namespace NextCBS.Bank.Intercom.Service
 {

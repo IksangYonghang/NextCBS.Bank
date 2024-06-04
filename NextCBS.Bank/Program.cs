@@ -1,6 +1,6 @@
 using Bank.Data;
+using NextCBS.Bank.Abstractions;
 using NextCBS.Bank.Api;
-using NextCBS.Bank.Contracts;
 using NextCBS.Bank.Data;
 using NextCBS.Bank.Intercom;
 
@@ -14,6 +14,7 @@ builder.Services.Configure<DbOption>(builder.Configuration.GetSection("DbServer"
 
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddScoped<IUserMeta, UserMeta>();
+builder.Services.AddScoped<IMicroServiceMeta, MicroServiceMeta>();
 
 builder.Services.AddDbContext<AppDbContext>();
 builder.Services.ConfiguredServices(builder.Configuration);

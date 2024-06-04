@@ -1,4 +1,4 @@
-namespace NextCBS.Bank.Contracts.Models.Identity;
+namespace NextCBS.Bank.Abstractions.Models.Identity;
 
 public class IdentityDpChangeModel
 {

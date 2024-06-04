@@ -1,4 +1,4 @@
-﻿using NextCBS.Bank.Contracts;
+﻿using NextCBS.Bank.Abstractions;
 
 namespace NextCBS.Bank.Api
 {

@@ -1,5 +1,5 @@
-﻿using NextCBS.Bank.Contracts;
-using System.Security.Claims;
+﻿using System.Security.Claims;
+using NextCBS.Bank.Abstractions;
 
 namespace NextCBS.Bank.Api
 {

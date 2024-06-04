@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NextCBS.Bank.Contracts\NextCBS.Bank.Contracts.csproj" />
+    <ProjectReference Include="..\NextCBS.Bank.Abstractions\NextCBS.Bank.Abstractions.csproj" />
   </ItemGroup>
 
 </Project>

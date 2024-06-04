@@ -1,4 +1,4 @@
-﻿using NextCBS.Bank.Module.Models;
+﻿using NextCBS.Bank.Abstractions.Models;
 
 namespace NextCBS.Bank.Module.IRepositories
 {

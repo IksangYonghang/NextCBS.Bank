@@ -1,4 +1,4 @@
-namespace NextCBS.Bank.Contracts;
+namespace NextCBS.Bank.Abstractions;
 
 public interface IMicroServiceMeta
 {

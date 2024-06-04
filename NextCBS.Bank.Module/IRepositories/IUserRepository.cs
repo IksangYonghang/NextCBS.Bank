@@ -1,5 +1,5 @@
-﻿using NextCBS.Bank.Module.Entities;
-using System.Linq.Expressions;
+﻿using System.Linq.Expressions;
+using NextCBS.Bank.Module.Entities;
 
 namespace NextCBS.Bank.Module.IRepositories
 {

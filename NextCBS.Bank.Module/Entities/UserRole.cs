@@ -6,6 +6,5 @@
         public int TenantId { get; set; }
         public string? RoleCode { get; set; }
         public required string RoleName { get; set; }
-       
     }
 }

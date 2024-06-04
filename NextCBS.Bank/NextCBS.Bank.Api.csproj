@@ -15,7 +15,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\NextCBS.Bank.Abstractions\NextCBS.Bank.Abstractions.csproj" />
     <ProjectReference Include="..\NextCBS.Bank.Data\NextCBS.Bank.Data.csproj" />
+    <ProjectReference Include="..\NextCBS.Bank.Module\NextCBS.Bank.Module.csproj" />
   </ItemGroup>
 
 </Project>
